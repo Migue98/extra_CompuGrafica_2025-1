@@ -22,8 +22,6 @@ para realizar este proyecto provienen del curso antes citado.
 ```
 git clone https://github.com/Migue98/extra_CompuGrafica_2025-1.git
 ```
-
-<br />
 2.- Para ejecutar el proyecto se debe de inicial el archivo "/P7/instalacion del entorno.sln" <br />
 Esto abrirá el proyecto en Visual Studio:<br /><br />
 ![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/090304.png)<br /><br />
