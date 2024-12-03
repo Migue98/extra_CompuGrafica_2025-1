@@ -19,12 +19,10 @@ para realizar este proyecto provienen del curso antes citado.
 
 ## Ejecutar proyecto
 1.- Para ejecutar el proyecto se debe de inicial el archivo "/P7/instalacion del entorno.sln" <br />
-Esto abrirá el proyecto en Visual Studio:<br />
-![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/090304.png)<br />
-<br />
-2.-  <br />
-![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/090304.png)<br />
-<br />
-3.-  <br />
-![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/090304.png)<br />
-<br />
+Esto abrirá el proyecto en Visual Studio:<br /><br />
+![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/090304.png)<br /><br />
+2.- Una vez abierto el editor, debe de asegurarse de que se elija la arquitectura "x86" <br /><br />
+![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/091349.png)<br /><br />
+3.- Para ejecutar el programa se debe de oprimir el boton ![Depurador local de Windows](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/091823.png) <br /><br />
+![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/092001.png)<br /><br />
+
