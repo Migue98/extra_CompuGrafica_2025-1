@@ -1,12 +1,9 @@
 ﻿  Iluminacion.cpp
-D:\2025-1\Lab. Compu grafica\P7\instalacion del entorno\Iluminacion.cpp(203,30): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\2025-1\Lab. Compu grafica\P7\instalacion del entorno\Iluminacion.cpp(503,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\2025-1\Lab. Compu grafica\P7\instalacion del entorno\Iluminacion.cpp(504,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\2025-1\Lab. Compu grafica\P7\instalacion del entorno\Iluminacion.cpp(508,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\2025-1\Lab. Compu grafica\P7\instalacion del entorno\Iluminacion.cpp(509,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\2025-1\Lab. Compu grafica\P7\instalacion del entorno\Iluminacion.cpp(511,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\2025-1\Lab. Compu grafica\P7\instalacion del entorno\Iluminacion.cpp(512,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-soil2-debug.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(image_DXT.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-soil2-debug.lib(image_helper.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(image_helper.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-soil2-debug.lib(SOIL2.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(SOIL2.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-  instalacion del entorno.vcxproj -> D:\2025-1\Lab. Compu grafica\P7\Debug\instalacion del entorno.exe
+C:\Users\migue\Downloads\Lab. Compu grafica\extra_CompuGrafica_2025-1\P7\instalacion del entorno\Iluminacion.cpp(248,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\migue\Downloads\Lab. Compu grafica\extra_CompuGrafica_2025-1\P7\instalacion del entorno\Iluminacion.cpp(361,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\migue\Downloads\Lab. Compu grafica\extra_CompuGrafica_2025-1\P7\instalacion del entorno\Iluminacion.cpp(362,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\migue\Downloads\Lab. Compu grafica\extra_CompuGrafica_2025-1\P7\instalacion del entorno\Iluminacion.cpp(366,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\migue\Downloads\Lab. Compu grafica\extra_CompuGrafica_2025-1\P7\instalacion del entorno\Iluminacion.cpp(367,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\migue\Downloads\Lab. Compu grafica\extra_CompuGrafica_2025-1\P7\instalacion del entorno\Iluminacion.cpp(369,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\migue\Downloads\Lab. Compu grafica\extra_CompuGrafica_2025-1\P7\instalacion del entorno\Iluminacion.cpp(370,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  instalacion del entorno.vcxproj -> C:\Users\migue\Downloads\Lab. Compu grafica\extra_CompuGrafica_2025-1\P7\Debug\instalacion del entorno.exe
