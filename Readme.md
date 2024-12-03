@@ -23,6 +23,7 @@ Esto abrirá el proyecto en Visual Studio:<br /><br />
 ![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/090304.png)<br /><br />
 2.- Una vez abierto el editor, debe de asegurarse de que se elija la arquitectura "x86" <br /><br />
 ![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/091349.png)<br /><br />
-3.- Para ejecutar el programa se debe de oprimir el boton ![Depurador local de Windows](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/091823.png) <br /><br />
+3.- Para ejecutar el programa se debe de oprimir el botón ![Depurador local de Windows](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/091823.png) <br /><br />
 ![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/092001.png)<br /><br />
-
+4.- Se abrirá una terminal en la que se visualizará el resultado del proyecto. En este caso se visualiza la práctica #4 <br /><br />
+![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/092627.png)<br /><br />
