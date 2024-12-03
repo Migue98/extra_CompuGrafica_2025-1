@@ -1,5 +1,5 @@
 # Proyecto Examen Extraordinario CGEIHC 2025-1 3° periodo
-Owner: Miguel Alberto Bazán Silva
+Owner: Miguel Alberto Bazán Silva<br />
 Profesor: Luis Sergio Valencia Castro
 
 ## Descripción
