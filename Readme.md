@@ -3,7 +3,7 @@ Owner: Miguel Alberto Bazán Silva<br />
 Profesor: Luis Sergio Valencia Castro
 
 ## Descripción
-Este proyecto está basado en la practica número 4 y 7 del laboratorio de computación gráfica
+Este proyecto está basado en la práctica número 4 y 7 del laboratorio de computación gráfica
 e interacción humano computadora del semestre 2025-1 del profesor Carlos Aldair Román Balbuena, 
 del cual yo, Miguel Alberto Bazán Silva, formé parte.
 
@@ -14,3 +14,17 @@ la práctica 7. Posteriormente se usó parte del código de la práctica 4 del mismo
 Las modificaciones realizadas a dicho código son 100% de mi autoría y los conocimientos obtenidos
 para realizar este proyecto provienen del curso antes citado.
 
+## Requisitos
+- [ ] [Visual Studio 2022 Community](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false)
+
+## Ejecutar proyecto
+1.- Para ejecutar el proyecto se debe de inicial el archivo "/P7/instalacion del entorno.sln" <br />
+Esto abrirá el proyecto en Visual Studio:<br />
+![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/090304.png)<br />
+<br />
+2.-  <br />
+![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/090304.png)<br />
+<br />
+3.-  <br />
+![img](https://raw.githubusercontent.com/Migue98/extra_CompuGrafica_2025-1/refs/heads/master/md-image/090304.png)<br />
+<br />
