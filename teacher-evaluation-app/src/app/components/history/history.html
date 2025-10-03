@@ -1,0 +1,48 @@
+<div class="history-container">
+  <nav class="navbar">
+    <div class="nav-brand">
+      <h1>Sistema de Evaluación</h1>
+    </div>
+    <div class="nav-menu">
+      <a routerLink="/dashboard" routerLinkActive="active">Inicio</a>
+      <a routerLink="/teachers" routerLinkActive="active">Profesores</a>
+      <a routerLink="/history" routerLinkActive="active">Historial</a>
+      <button class="btn-logout" (click)="logout()">Cerrar Sesión</button>
+    </div>
+  </nav>
+
+  <div class="history-content">
+    <h2>Historial de Evaluaciones</h2>
+    <p class="subtitle">Consulta las evaluaciones realizadas anteriormente</p>
+
+    <div class="evaluations-list">
+      <div class="evaluation-card" *ngFor="let evaluation of evaluations">
+        <div class="evaluation-header">
+          <div>
+            <h3>{{ evaluation.teacherName }}</h3>
+            <p class="evaluation-period">Período: {{ evaluation.period }}</p>
+          </div>
+          <div class="evaluation-average">
+            <span class="average-label">Promedio</span>
+            <span class="average-value">{{ getAverageRating(evaluation) }}</span>
+          </div>
+        </div>
+        
+        <div class="evaluation-details">
+          <p class="evaluation-date">
+            Fecha: {{ evaluation.date | date:'dd/MM/yyyy' }}
+          </p>
+          
+          <div class="ratings-summary" *ngIf="evaluation.comments">
+            <strong>Comentarios:</strong>
+            <p>{{ evaluation.comments }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="evaluations.length === 0" class="no-evaluations">
+      <p>No hay evaluaciones registradas todavía.</p>
+    </div>
+  </div>
+</div>

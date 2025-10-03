@@ -1,0 +1,87 @@
+<div class="evaluation-container">
+  <nav class="navbar">
+    <div class="nav-brand">
+      <h1>Sistema de Evaluación</h1>
+    </div>
+    <div class="nav-menu">
+      <a routerLink="/dashboard" routerLinkActive="active">Inicio</a>
+      <a routerLink="/teachers" routerLinkActive="active">Profesores</a>
+      <a routerLink="/history" routerLinkActive="active">Historial</a>
+      <button class="btn-logout" (click)="logout()">Cerrar Sesión</button>
+    </div>
+  </nav>
+
+  <div class="evaluation-content">
+    <div class="form-header">
+      <h2>Formulario de Evaluación</h2>
+      <div class="teacher-info" *ngIf="teacher">
+        <h3>{{ teacher.name }}</h3>
+        <p>{{ teacher.subject }}</p>
+      </div>
+    </div>
+
+    <form (ngSubmit)="onSubmit()" class="evaluation-form">
+      <p class="instructions">Califica cada rubro del 1 al 4, siendo 1 el más bajo y 4 el más alto.</p>
+
+      <div class="categories-list">
+        <div class="category-item" *ngFor="let category of categories">
+          <div class="category-header">
+            <h4>{{ category.name }}</h4>
+            <p class="category-description">{{ category.description }}</p>
+          </div>
+          
+          <div class="rating-buttons">
+            <button 
+              type="button"
+              class="rating-btn"
+              [class.selected]="ratings[category.id] === 1"
+              (click)="setRating(category.id, 1)"
+            >
+              1
+            </button>
+            <button 
+              type="button"
+              class="rating-btn"
+              [class.selected]="ratings[category.id] === 2"
+              (click)="setRating(category.id, 2)"
+            >
+              2
+            </button>
+            <button 
+              type="button"
+              class="rating-btn"
+              [class.selected]="ratings[category.id] === 3"
+              (click)="setRating(category.id, 3)"
+            >
+              3
+            </button>
+            <button 
+              type="button"
+              class="rating-btn"
+              [class.selected]="ratings[category.id] === 4"
+              (click)="setRating(category.id, 4)"
+            >
+              4
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="comments-section">
+        <label for="comments">Comentarios adicionales (opcional)</label>
+        <textarea 
+          id="comments"
+          [(ngModel)]="comments"
+          name="comments"
+          rows="4"
+          placeholder="Ingrese sus observaciones..."
+        ></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button type="button" class="btn-cancel" routerLink="/teachers">Cancelar</button>
+        <button type="submit" class="btn-submit" [disabled]="!isValid()">Enviar Evaluación</button>
+      </div>
+    </form>
+  </div>
+</div>
