@@ -1,0 +1,37 @@
+<div class="teachers-container">
+  <nav class="navbar">
+    <div class="nav-brand">
+      <h1>Sistema de Evaluación</h1>
+    </div>
+    <div class="nav-menu">
+      <a routerLink="/dashboard" routerLinkActive="active">Inicio</a>
+      <a routerLink="/teachers" routerLinkActive="active">Profesores</a>
+      <a routerLink="/history" routerLinkActive="active">Historial</a>
+      <button class="btn-logout" (click)="logout()">Cerrar Sesión</button>
+    </div>
+  </nav>
+
+  <div class="teachers-content">
+    <h2>Profesores Asignados</h2>
+    <p class="subtitle">Seleccione un profesor para realizar la evaluación</p>
+
+    <div class="teachers-grid">
+      <div class="teacher-card" *ngFor="let teacher of teachers">
+        <div class="teacher-info">
+          <div class="teacher-avatar">👨‍🏫</div>
+          <div class="teacher-details">
+            <h3>{{ teacher.name }}</h3>
+            <p class="subject">{{ teacher.subject }}</p>
+          </div>
+        </div>
+        <button class="btn-evaluate" (click)="evaluateTeacher(teacher.id)">
+          Evaluar
+        </button>
+      </div>
+    </div>
+
+    <div *ngIf="teachers.length === 0" class="no-teachers">
+      <p>No hay profesores asignados en este momento.</p>
+    </div>
+  </div>
+</div>

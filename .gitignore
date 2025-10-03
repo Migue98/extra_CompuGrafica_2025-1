@@ -1,0 +1,6 @@
+
+# Angular
+teacher-evaluation-app/node_modules/
+teacher-evaluation-app/dist/
+teacher-evaluation-app/.angular/
+teacher-evaluation-app/.vscode/

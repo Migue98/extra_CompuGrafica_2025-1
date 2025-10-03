@@ -1,0 +1,30 @@
+<div class="success-container">
+  <nav class="navbar">
+    <div class="nav-brand">
+      <h1>Sistema de Evaluación</h1>
+    </div>
+    <div class="nav-menu">
+      <a routerLink="/dashboard" routerLinkActive="active">Inicio</a>
+      <a routerLink="/teachers" routerLinkActive="active">Profesores</a>
+      <a routerLink="/history" routerLinkActive="active">Historial</a>
+      <button class="btn-logout" (click)="logout()">Cerrar Sesión</button>
+    </div>
+  </nav>
+
+  <div class="success-content">
+    <div class="success-card">
+      <div class="success-icon">✅</div>
+      <h2>¡Evaluación Enviada Exitosamente!</h2>
+      <p>La evaluación ha sido registrada correctamente en el sistema.</p>
+      
+      <div class="success-actions">
+        <button routerLink="/teachers" class="btn-primary">
+          Evaluar Otro Profesor
+        </button>
+        <button routerLink="/dashboard" class="btn-secondary">
+          Volver al Inicio
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
